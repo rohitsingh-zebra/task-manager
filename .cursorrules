@@ -1,0 +1,6 @@
+# Coding Standards
+
+- **Variable Naming:** Always use `camelCase` for all JavaScript/TypeScript variables, functions, refs, and reactive properties (e.g., `taskName`, `dueDate`, `isCompleted`, `toggleTask`).
+- **Component Naming:** Use `PascalCase` for Vue single-file component filenames (e.g., `TaskItem.vue`, `TaskList.vue`) and component registration.
+- **HTML/Template Naming:** Use `kebab-case` for Vue template elements and component tags (e.g., `<task-item />`).
+- **Constants:** Use `UPPER_SNAKE_CASE` for global constants that never change.
